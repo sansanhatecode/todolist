@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <div style = {{padding: 40}}>
+    <div className='bg-red-100' style = {{padding: 40}}>
       <input 
         value={job} 
         onChange={e => setJob(e.target.value)}
